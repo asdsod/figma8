@@ -1,0 +1,133 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+/* @import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap); */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+body {
+    font-family: Lato;
+}
+.top >p {
+    /* background-color: coral; */
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 400px;
+    min-height: 20px;
+    margin: 50px auto 20px auto;
+}
+.zag {
+    /* background-color: coral; */
+    font-size: 46px;
+    text-transform: capitalize;
+    font-weight: 700;
+    max-width: 400px;
+    min-height: 20px;
+    margin: 40px auto 20px auto;
+}
+.m1 {
+    /* background-color: coral; */
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    max-width: 400px;
+    min-height: 20px;
+    padding: 13px 0px 0px 30px;
+    margin: 0px auto 20px auto;
+    background: url(/image/Vector.svg) left / 16px no-repeat;
+}
+.m2 {
+    /* background-color: coral; */
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    max-width: 400px;
+    min-height: 20px;
+    padding: 2px 0px 0px 30px;
+    margin: 0px auto 20px auto;
+    background: url(/image/Vector.svg) left / 16px no-repeat;
+}
+.m3 {
+    /* background-color: coral; */
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    max-width: 400px;
+    min-height: 20px;
+    padding: 13px 0px 0px 30px;
+    margin: 0px auto 20px auto;
+    background: url(/image/Vector.svg) left / 16px no-repeat;
+}
+.m4 {
+    /* background-color: coral; */
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    max-width: 400px;
+    min-height: 20px;
+    padding: 13px 0px 0px 30px;
+    margin: 0px auto 20px auto;
+    background: url(/image/Vector.svg) left / 16px no-repeat;
+}
+.m5 {
+    /* background-color: coral; */
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    max-width: 400px;
+    min-height: 20px;
+    padding: 2px 0px 0px 30px;
+    margin: 0px auto 20px auto;
+    background: url(/image/Vector.svg) left / 16px no-repeat;
+}
+.m6 {
+    /* background-color: coral; */
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    max-width: 400px;
+    min-height: 20px;
+    padding: 13px 0px 0px 30px;
+    margin: 3px auto 20px auto;
+    background: url(/image/Vector.svg) left / 16px no-repeat;
+}
+.bottom {
+    font-size: 14px;
+    background-color: orangered ;
+    max-width: 130px;
+    min-height: 40px;
+    padding: 10px;
+    margin: 0px 0px 60px 755px;
+    border-radius: 5px;
+}
+.bott {
+    /* background-color: burlywood; */
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 500px;
+    min-height: 60px;
+    margin: 0px 0px 0px 700px;
+    padding: 0px 0px 0px 0px;
+}
+.bott::after {
+    display: block;
+    content: "" ;
+    background-color: black;
+    /* padding: 10px 0px 0px 0px; */
+    margin: 10px 0px 0px 0px;
+    width: 100px;
+    height: 2px;
+}
+.bott::before {
+    content: "";
+    display: inline-block;
+    border-right: solid  2px red;
+    height: 200px;
+    width: 2px;
+    margin: 0px 0px 0px 0px ;
+
+}
